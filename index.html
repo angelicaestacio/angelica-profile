@@ -3,178 +3,636 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angelica Estacio | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
-<header class="hero">
 
-    <img src="profile.jpg" class="profile">
+<!-- LOADING SCREEN -->
 
-    <h1>Angelica Ramos Estacio</h1>
+<div id="loader">
+<h1>🌸 Angel's Crafty</h1>
+<p>Loading Portfolio...</p>
 
-    <h3>Bachelor of Computer Science Student</h3>
+</div>
 
-    <p>
-        Dreamer • Creator • Business Owner • Future IT Professional
-    </p>
+<!-- NAVBAR -->
+
+<header>
+<nav class="navbar">
+<div class="logo">
+🌸 Angel's Crafty
+</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#resume">Resume</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#inquiry">Inquiry</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button id="darkBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</nav>
 
 </header>
 
-<section class="card">
+<!-- HERO -->
 
-    <h2>💜 About Me</h2>
+<section id="home" class="hero">
 
-    <p>
-        Hello! I am <strong>Angelica Ramos Estacio</strong>,
-        a Bachelor of Computer Science student from
-        Don Mariano Marcos Memorial State University
-        South La Union Campus.
-    </p>
+<div class="hero-text">
 
-    <p>
-        I was born on September 9, 2005.
-        My family calls me <strong>Angel</strong>,
-        while my friends call me <strong>Angge</strong>.
-    </p>
+<h3>Hello, I'm</h3>
 
-    <p>
-        I am passionate about coding, technology,
-        entrepreneurship, and self-development.
-    </p>
+<h1>Angelica Ramos Estacio</h1>
 
-</section>
+<h2>
 
-<section class="card">
+Bachelor of Science in Computer Science
 
-    <h2>🎓 Education</h2>
+</h2>
 
-    <ul>
-        <li>San Jose Elementary School (2010-2017)</li>
-        <li>DEFEMNHS (2017-2023)</li>
-        <li>DMMMSU South La Union Campus (2023-Present)</li>
-    </ul>
+<p>
 
-</section>
+Aspiring Software Developer • Entrepreneur • Creative Designer • Future IT Professional
 
-<section class="card">
+</p>
 
-    <h2>✨ Skills</h2>
+<div class="hero-buttons">
 
-    <ul>
-        <li>Communication Skills</li>
-        <li>Time Management</li>
-        <li>Leadership Skills</li>
-        <li>Adaptability</li>
-        <li>Teamwork & Collaboration</li>
-        <li>Relationship Building</li>
-        <li>Microsoft Excel</li>
-        <li>Inventory Management</li>
-        <li>Data Encoding</li>
-        <li>Basic Programming</li>
-        <li>Database Management</li>
-    </ul>
+<a href="resume.jpg" download class="btn">
 
-</section>
+Download Resume
 
-<section class="card">
+</a>
 
-    <h2>💼 OJT Experience at DEFEMNHS</h2>
+<a href="#contact" class="btn outline">
 
-    <p>
-        During my on-the-job training, I learned how inventory systems work
-        through Microsoft Excel and manual inventory recording.
-        I enhanced my communication, leadership, adaptability,
-        teamwork, and problem-solving skills while working
-        with employees and fellow trainees. I also improved 
-	my Microsoft Excel, Microsoft Word, and CamScanner skills.
-    
-    </p>
+Contact Me
 
-</section>
+</a>
 
-<section class="card">
+</div>
 
-    <h2>🌸 My Small Business - Angel's Crafty</h2>
+</div>
 
-    <img src="angelscrafty.jpg" class="business">
+<div class="hero-image">
 
-    <p>
-        Angel's Crafty is my small business where I create
-        handmade bouquets and fuzzy wire crafts.
-    </p>
-
-    <p>
-        This business helped me develop creativity,
-        customer service, marketing,
-        and entrepreneurial skills.
-    </p>
-
-</section>
-
-<section class="card">
-
-    <h2>🐱 Meet Munchy</h2>
-
-    <img src="munchy.jpg" class="cat">
-
-    <p>
-        This is my cat, <strong>Munchy</strong>.
-    </p>
-
-    <p>
-        I love cats because they are caring, sweet,
-        lovable, and comforting.
-    </p>
-
-    <p>
-        Munchy is my emotional support baby
-        and one of my favorite companions.
-    </p>
-
-</section>
-
-<section class="card">
-
-    <h2>📞 Contact Information</h2>
-
-    <p>Phone: 09453996037</p>
-
-    <p>Email: angelestacio767@gmail.com</p>
-
-    <p>Facebook: Angelica Estacio</p>
-
-    <p>Business Page: Angel's Crafty</p>
-
-    <p>Location: Agoo, La Union</p>
-
-</section>
-<section class="card">
-
-<h2>✨ Story Highlights</h2>
-
-<div class="highlights">
-
-<div class="highlight">💻 Coding</div>
-
-<div class="highlight">🌸 Business</div>
-
-<div class="highlight">🐱 Munchy</div>
-
-<div class="highlight">🎓 School</div>
+<img src="profile.jpg"
+alt="Angelica Estacio">
 
 </div>
 
 </section>
 
+<!-- INTRO -->
+
+<section class="intro">
+
+<h2>
+
+💜 Welcome to My Portfolio
+
+</h2>
+
+<p>
+
+Welcome! This portfolio showcases my academic journey,
+technical knowledge,
+business experiences,
+and creative works through Angel's Crafty.
+It reflects my passion for technology,
+continuous learning,
+software development,
+and entrepreneurship.
+
+</p>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="section">
+
+<h2>
+
+About Me
+
+</h2>
+
+<div class="about-container">
+
+<img src="profile.jpg"
+class="about-image">
+<div>
+
+<p>
+
+I am
+
+<strong>Angelica Ramos Estacio</strong>,
+
+currently pursuing a Bachelor of Science in Computer Science at
+Don Mariano Marcos Memorial State University –
+South La Union Campus.
+
+I enjoy programming,
+designing websites,
+learning new technologies,
+and managing my handmade craft business called
+Angel's Crafty.
+
+My goal is to become a skilled software developer while continuing to grow my creativity and entrepreneurial skills.
+</p>
+
+<div class="about-info">
+
+<p>
+<strong>Name:</strong>
+Angelica Ramos Estacio
+</p>
+
+<p>
+<strong>Email:</strong>
+angelestacio767@gmail.com
+</p>
+
+<p>
+<strong>Location:</strong>
+Agoo, La Union
+</p>
+
+<p>
+<strong>University:</strong>
+DMMMSU South La Union Campus
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="section">
+
+<h2>
+
+Skills
+
+</h2>
+
+<div class="skill">
+
+<p>HTML</p>
+
+<div class="bar">
+
+<span class="html"></span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>CSS</p>
+
+<div class="bar">
+
+<span class="css"></span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>Java</p>
+
+<div class="bar">
+
+<span class="java"></span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>C Programming</p>
+
+<div class="bar">
+
+<span class="c"></span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>Database Management</p>
+
+<div class="bar">
+
+<span class="db"></span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>Microsoft Office</p>
+
+<div class="bar">
+
+<span class="office"></span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- RESUME -->
+
+<section id="resume" class="section">
+
+<h2>
+
+Resume
+
+</h2>
+
+<p>
+
+Below is my professional resume.
+
+</p>
+
+<img
+
+src="resume.jpg"
+
+class="resume"
+
+id="resumeImg"
+
+alt="Resume">
+
+<br><br>
+
+<a href="resume.jpg"
+
+download
+
+class="btn">
+
+Download Resume
+
+</a>
+
+</section>
+
+<!-- CERTIFICATES -->
+
+<section id="certificates" class="section">
+
+<h2>Certificates</h2>
+
+<p>
+These are some of the certifications I have earned through seminars,
+training, and academic activities.
+Click an image to enlarge it.
+</p>
+
+<div class="certificate-gallery">
+<img src="cert1.jpg" alt="Certificate 1" class="certificate">
+<img src="cert2.jpg" alt="Certificate 3" class="certificate">
+</div>
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products" class="section">
+
+<h2>Angel's Crafty</h2>
+
+<p>
+
+Angel's Crafty is my small business specializing in handmade fuzzy wire bouquets,
+keychains, plushies, and personalized gift items.
+
+</p>
+
+<div class="filter-buttons">
+
+<button class="filter-btn active" data-filter="all">
+All
+</button>
+
+<button class="filter-btn" data-filter="bouquet">
+Bouquets
+</button>
+
+<button class="filter-btn" data-filter="keychain">
+Keychains
+</button>
+
+<button class="filter-btn" data-filter="plushie">
+Plushies
+</button>
+
+</div>
+<div class="gallery">
+<div class="product bouquet">
+<img src="sunflower-bouquet.jpg">
+<h4>Sunflower Bouquet</h4>
+<p>Handmade fuzzy wire bouquet.</p>
+<p>Php 200.00</p>
+</div>
+
+<div class="product bouquet">
+<img src="mini-sunflower.jpg">
+<h4>Mini Sunflower Bouquet</h4>
+<p>Perfect for gifts.</p>
+<p>Php 35.00</p>
+</div>
+
+<div class="product keychain">
+<img src="lily-keychain.jpg">
+<h4>Lily Keychain</h4>
+<p>Elegant handmade keychain.</p>
+<p>Php 45.00</p>
+</div>
+
+<div class="product plushie">
+<img src="plushie-keychains.jpg">
+<h4>Plushies</h4>
+<p>Soft and adorable.</p>
+<p>Php 150.00</p>
+</div>
+
+<div class="product bouquet">
+<img src="makeup-bouquet.jpg">
+<h4>Makeup Bouquet</h4>
+<p>Customized bouquet for special occasions.</p>
+<p>Php 499.00</p>
+</div>
+
+<div class="product cone bouquet">
+<img src="conebouquet.jpg">
+<h4>Cone Bouquet</h4>
+<p>Php 99.00</p>
+</div>
+
+<div class="product keychain">
+<img src="keychain2.jpg">
+<h4>Pink Octopus Keychain</h4>
+<p>Php 20.00</p>
+</div>
+
+<div class="product keychain">
+<img src="keychain3.jpg">
+<h4>Orange Octopus Keychain</h4>
+<p>Php 20.00</p>
+</div>
+
+<div class="product keychain">
+<img src="keychain4.jpg">
+<h4>Pink Sunflower Hair Clip</h4>
+<p>Php 20.00</p>
+</div> 
+
+<div class="product keychain">
+<img src="keychain5.jpg">
+<h4>Flower Keychain</h4>
+<p>Php 20.00</p>
+</div> 
+
+<div class="product keychain">
+<img src="keychain6.jpg">
+<h4>Pink Mini Daisy</h4>
+<p>Php 20.00</p>
+</div>
+
+<div class="product plushie">
+<img src="plushie1.jpg">
+<h4>Couple Pink Mini Snoopy Girl</h4>
+<p>Php 150.00</p>
+</div>
+
+<div class="product plushie">
+<img src="plushie2.jpg">
+<h4>White Cat Plushie with Keychain Holder</h4>
+<p>Php 40.00</p>
+</div> 
+
+<div class="product plushie">
+<img src="plushie3.jpg">
+<h4>Brown Cat Plushie with Keychain Holder</h4>
+<p>Php 45.00</p>
+</div>
+
+<div class="product plushie">
+<img src="plushie4.jpg">
+<h4>Couple Snoopy with Eyeglass and Scarf</h4>
+<p>Php 150.00</p>
+</div> 
+
+<div class="product plushie">
+<img src="plushie5.jpg">
+<h4>Black Cat Plushie with Keychain Holder</h4>
+<p>Php 45.00</p>
+</div>
+
+<div class="product plushie">
+<img src="plushie6.jpg">
+<h4>Pink Cat Plushie with Keychain Holder</h4>
+<p>Php 45.00</p>
+</div>
+
+<div class="product bouquet">
+<img src="Mini Pink Bouquet.jpg">
+<h4>Budget Friendly for Students</h4>
+<p>Php 69.00</p>
+</div>
+
+<div class="product product">
+<img src="Pink Bouquet with fillers.jpg">
+<h4>Perfect Gift for your Girl that loves Pink</h4>
+<p>Php 180.00</p>
+</div>
+
+<div class="product bouquet">
+<img src="Thumbelina Bouquet.jpg">
+<h4>Rapunzel's Thumbelina Bouquet</h4>
+<p>Php 199.00</p>
+</div>
+
+</section>
+
+<!-- BUSINESS INQUIRY -->
+
+<section id="inquiry" class="section">
+
+<h2>Business Inquiry</h2>
+
+<form class="inquiry-form">
+
+<input
+type="text"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+placeholder="Email Address"
+required>
+
+<select required>
+<option value="">
+
+Select Product
+
+</option>
+
+<option>
+
+Bouquet
+
+</option>
+
+<option>
+
+Keychain
+
+</option>
+
+<option>
+
+Plushie
+
+</option>
+
+<option>
+
+Customized Gift
+
+</option>
+
+</select>
+
+<input
+type="number"
+placeholder="Quantity">
+
+<textarea
+rows="6"
+placeholder="Your Message">
+
+</textarea>
+
+<button
+type="submit"
+class="btn">
+
+Send Inquiry
+
+</button>
+
+</form>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact Information</h2>
+
+<div class="contact-info">
+
+<p>🌸 Business Page: Angel's Crafty</p>
+<p>📧 angelestacio767@gmail.com</p>  
+<p>📍 Agoo, La Union</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
 <footer>
 
-    <p>
-        Created using HTML, CSS, Git, GitHub,
-        and CHATGPT.
-    </p>
+<h3>
+
+Angel's Crafty
+
+</h3>
+
+<p>
+
+Designed and Developed by
+
+<strong>
+
+Angelica Ramos Estacio
+
+</strong>
+
+</p>
+
+<p>
+
+Bachelor of Science in Computer Science
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved.
+
+</p>
 
 </footer>
+
+<!-- IMAGE MODAL -->
+
+<div id="imageModal" class="modal">
+
+<span class="close">
+
+&times;
+
+</span>
+
+<img
+class="modal-content"
+id="modalImg">
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
